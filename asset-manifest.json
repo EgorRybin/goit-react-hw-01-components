@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/EgorRybin/goit-react-hw-01-components.git/static/css/main.7acaea2f.css",
-    "main.js": "/EgorRybin/goit-react-hw-01-components.git/static/js/main.07d3183d.js",
+    "main.css": "/EgorRybin/goit-react-hw-01-components.git/static/css/main.e0fa4a48.css",
+    "main.js": "/EgorRybin/goit-react-hw-01-components.git/static/js/main.edb093c2.js",
+    "static/media/defaultimg.jpg": "/EgorRybin/goit-react-hw-01-components.git/static/media/defaultimg.f1f47a3a2be2b74be374.jpg",
     "index.html": "/EgorRybin/goit-react-hw-01-components.git/index.html",
-    "main.7acaea2f.css.map": "/EgorRybin/goit-react-hw-01-components.git/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/EgorRybin/goit-react-hw-01-components.git/static/js/main.07d3183d.js.map"
+    "main.e0fa4a48.css.map": "/EgorRybin/goit-react-hw-01-components.git/static/css/main.e0fa4a48.css.map",
+    "main.edb093c2.js.map": "/EgorRybin/goit-react-hw-01-components.git/static/js/main.edb093c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.e0fa4a48.css",
+    "static/js/main.edb093c2.js"
   ]
 }
