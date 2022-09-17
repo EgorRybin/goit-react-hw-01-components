@@ -1,0 +1,36 @@
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 150px;
+    background-color: teal;
+    font-size: 40px;
+    color: blue;
+}
+.avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 20px 0;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+}
+
+.label {
+    display: block;
+}
+.quantity {
+    display: block;
+}
