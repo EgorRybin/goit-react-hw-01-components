@@ -1,23 +1,20 @@
 import PropTypes from 'prop-types';
-import css from 'components/statistics/Statistics.module.css';
 
-export const Statistics = ({ stats, title }) => {
+import s from 'components/statistics/Statistics.module.css';
+import { Stats } from './Stats';
+
+
+
+export const Statistics = ({stats, title}) => {
+
     return (
-        <section className={css.statistics}>
-            {title && <h2 className={css.title}>{title}</h2>}
-
-        <ul className={css.statList}>
-       {stats.map(d =>
-     (<li className={css.item} key={d.id}>
-       <span className={css.label}>{d.label}</span>
-       <span className={css.percentage}>{d.percentage}%</span>
-      </li>))}
-        </ul>
-      </section>
+      <section className={s.statistics}>
+        {title && <h2 className={s.title}>{title}</h2>}
+        <Stats data={stats} />
+     </section>
         )
 }
-
 Statistics.propTypes = {
-    stats: PropTypes.array.isRequired,
-    title: PropTypes.string
+  stats: PropTypes.array,
+  title:PropTypes.string 
 }
